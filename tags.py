@@ -6,6 +6,6 @@ with open("sample.html", "r") as f:
 
 soup = BeautifulSoup(html_doc, 'html.parser')
 
-print(soup.prettify())
+#print(soup.prettify())
 
-print("hello world")
+print(soup.title.string)
